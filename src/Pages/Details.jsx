@@ -96,7 +96,7 @@ function Details() {
           </div>
           <h1 className="text-5xl font-black mb-5">{movie.title}</h1>
           <p className="">{movie.description}</p>
-          <button className="px-8 py-4 mt-3 rounded-lg bg-red-600">
+          <button className="px-8 py-4 mt-3 rounded-lg bg-red-600 cursor-pointer hover:bg-white hover:text-black transition-all duration-300 ease-in-out">
             Add to watchlist
           </button>
         </div>
@@ -121,4 +121,4 @@ function Details() {
   );
 }
 
-export default Details;
+export default { Details, wishlist };
