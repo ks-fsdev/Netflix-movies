@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.custom-shadow {
+  box-shadow: 0px -100px 150px 0px rgba(23, 16, 16, 0.766) inset;
+}
